@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="ej15.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="barra">
+        <h2>EJERCICIO 15</h2>
+        </div>
+        <div class="caja">
+            <!-- caja-izquierda para poner las fotos en miniatura -->
+            <div class="cajaIzq">
+                <div class="grilla">
+                    <img src="foto1.jpg" width="150px" height="100px" name="fotos1" onclick="mifoto(1)">
+                    <img src="foto2.jpg" width="150px" height="100px" name="fotos2" onclick="mifoto(2)">
+                    <img src="foto3.jpg" width="150px" height="100px" name="fotos3" onclick="mifoto(3)">
+                    <img src="foto4.jpg" width="150px" height="100px" name="fotos4" onclick="mifoto(4)">
+                    <img src="foto5.jpg" width="150px" height="100px" name="fotos5" onclick="mifoto(5)">
+                    <img src="foto6.jpg" width="150px" height="100px" name="fotos6" onclick="mifoto(6)">
+                    <img src="foto7.jpg" width="150px" height="100px" name="fotos7" onclick="mifoto(7)">
+                    <img src="foto8.jpg" width="150px" height="100px" name="fotos8" onclick="mifoto(8)">
+                </div>
+            </div>
+            <!-- caja para la imagen grande -->
+            <div class="cajacentro" id="visor">
+                <img id="imagen" src="foto1.jpg" width="400px" height="300px" name="central">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

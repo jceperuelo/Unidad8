@@ -1,0 +1,60 @@
+.container-fluid {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+background-color: yellow;
+height: 600px;
+}
+
+h2 {text-align: center;}
+
+.barra {
+border: 3px solid black;
+height: 70px;
+width: 1200px;
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+
+.caja {
+    border: 3px solid black;
+    height: 600px;
+    width: 1200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaIzq {
+     /* border: 3px solid black;  */
+    height: 500px;
+    width: 500px;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 100px 100px;
+    height: 100px;
+    width: 150px;
+    grid-gap: 70px;
+    grid-row-gap: 20px;
+    margin: 20px;
+    margin-left: 75px;
+    }
+
+.cajacentro {
+    /* border: 3px solid black; */
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen {
+/* justify-content: center; */
+
+}
